@@ -10,7 +10,7 @@ const AboutMe = () => {
       </h5>
 
       <div className='grid grid-cols-1 md:grid-cols-3 md:gap-4'>
-        <img className='w-full h-80 object-cover rounded-lg mb-4 md:mb-0' src={PROFILE_PIC} alt='profile pic' />
+        <img className='w-full h-80 object-cover rounded-lg mb-4 md:mb-0 object-top' src={PROFILE_PIC} alt='profile pic' />
 
         <div className='col-span-2 bg-gradient-to-br from-blue-950 to-slate-900 rounded-lg border border-blue-800/40 p-6'>
           <p className='text-blue-50 text-xs md:text-[13px] font-normal text-justify leading-6'>

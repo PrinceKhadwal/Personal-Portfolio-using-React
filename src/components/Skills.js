@@ -30,7 +30,7 @@ const SkillsCard = ({icon:Icon, iconProps, title, comment}) => {
       <Icon className = "text-primary text-3xl"/>
     </div>
 
-    <p className='text-xs font-light leading-5 opacity-80'>{comment}</p>
+    <p className='text-xs font-light leading-5 opacity-80 text-justify'>{comment}</p>
   </div>
   )
 }

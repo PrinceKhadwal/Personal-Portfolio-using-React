@@ -11,7 +11,7 @@ const Hero = () => {
   if(!yearsOfExperience)
   yearsOfExperience="Fresher"
   return (
-    <section className='max-w-screen-xl flex flex-col gap-14 md:flex-row md:items-center pt-16 md:pt-28 pb-20 px-6 mx-auto' id='hero'>
+    <section className='max-w-screen-xl flex flex-col gap-14 md:flex-row items-center pt-16 md:pt-28 pb-20 px-6 mx-auto' id='hero'>
       
       
       <div className='flex-1 text-center md:text-left z-[1]'>
@@ -20,12 +20,12 @@ const Hero = () => {
         <span>
           A Frontend Web Developer
         </span>
-        <p className='w-full text-xs font-light text-neutral-50 leading-5 my-6 lg:w-[38vw] md:text-sm md:leading-6 md:my-8'>{tagline}</p>
+        <p className='text-xs font-light text-neutral-50 leading-5 my-6 lg:w-[38vw] md:text-sm md:leading-6 md:my-8'>{tagline}</p>
         <button className='primary-btn'>Contact Me</button>
       </div>
 
 
-      <div className='flex gap-2 justify-center md:gap-3 lg:gap-5 z-[1] w-1/3'>
+      <div className='flex gap-2 justify-center md:gap-3 lg:gap-5 z-[1]  md:w-2/5 lg:w-1/3'>
         <div className='w-[403]px bg-gradient-to-br from-blue-950 to-slate-900 rounded-lg border border-blue-950 p-6'>
           <div className='flex items-center justify-center'>
             <img className='hero-img' src={PROFILE_PIC} alt='img one'/>

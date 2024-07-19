@@ -9,9 +9,6 @@
         font-family: "Poppins", "sans-serif";
         color: #ffffff;
     }
-    body{
-        overflow-x: hidden;
-    }
 }
 
 @layer components{

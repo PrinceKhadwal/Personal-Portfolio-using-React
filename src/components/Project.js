@@ -21,7 +21,7 @@ const Project = () => {
 
 const IndividualProject = ({ item }) => {
   return (
-    <div class="text-center m-4 w-72 overflow-hidden rounded-3xl px-4 py-8 bg-navbg flex flex-col items-center">
+    <div class="text-center m-4 w-72 overflow-hidden rounded-xl px-4 py-8 bg-slate-900 border border-blue-900 flex flex-col items-center">
       {/* <div class="relative h-40 bottom-8 w-[200px]">
           <img src={item.image_link} alt="" className="rounded-2xl"/>
         </div> */}
